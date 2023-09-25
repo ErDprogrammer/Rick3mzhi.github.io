@@ -147,4 +147,8 @@ h1 {
   .number {
     font-size: 4rem; /* Reduce the font size for .number */
   }
+
+.between{
+top:30rem;
+}
 }
