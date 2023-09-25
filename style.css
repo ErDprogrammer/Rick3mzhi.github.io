@@ -141,14 +141,12 @@ h1 {
 
   h1 {
     font-size: 3rem; /* Reduce the font size for h1 */
-    top: 40%; /* Adjust the vertical positioning */
+    top: 70%; /* Adjust the vertical positioning */
   }
 
   .number {
     font-size: 4rem; /* Reduce the font size for .number */
   }
 
-h1{
-top:60rem;
-}
+
 }
