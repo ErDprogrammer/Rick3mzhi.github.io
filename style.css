@@ -15,7 +15,6 @@ body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
-  /* background-color: #60b347; */
 }
 
 /* LAYOUT */
@@ -33,16 +32,12 @@ main {
   justify-content: space-around;
 }
 
-.left {
+.left,
+.right {
   width: 52rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.right {
-  width: 52rem;
-  font-size: 2rem;
 }
 
 /* ELEMENTS STYLE */
@@ -116,4 +111,40 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+/* Add a media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  html {
+    font-size: 50%; /* Adjust the font size as needed */
+  }
+
+  body {
+    padding: 1rem; /* Add some spacing to the body content */
+  }
+
+  header {
+    height: 20vh; /* Reduce the header height */
+  }
+
+  main {
+    height: auto; /* Allow the main content to expand naturally */
+    flex-direction: column; /* Stack .left and .right vertically */
+    text-align: center; /* Center-align main content */
+  }
+
+  .left,
+  .right {
+    width: 100%; /* Make .left and .right full width */
+    text-align: center; /* Center-align their content */
+  }
+
+  h1 {
+    font-size: 3rem; /* Reduce the font size for h1 */
+    top: 40%; /* Adjust the vertical positioning */
+  }
+
+  .number {
+    font-size: 4rem; /* Reduce the font size for .number */
+  }
 }
