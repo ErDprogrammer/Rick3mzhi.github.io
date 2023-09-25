@@ -124,7 +124,7 @@ h1 {
   }
 
   header {
-    height: 20vh; /* Reduce the header height */
+    height: 30vh; /* Reduce the header height */
   }
 
   main {
@@ -149,6 +149,12 @@ margin-top:40px;
   .number {
     font-size: 4rem; /* Reduce the font size for .number */
   }
+.guess{
+  margin-top: 05rem;
+}
 
+.message{
+  margin-top: 05rem;
 
+}
 }
