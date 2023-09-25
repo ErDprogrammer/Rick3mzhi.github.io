@@ -131,6 +131,7 @@ h1 {
     height: auto; /* Allow the main content to expand naturally */
     flex-direction: column; /* Stack .left and .right vertically */
     text-align: center; /* Center-align main content */
+    top: 30%; /* Adjust the vertical positioning */
   }
 
   .left,
